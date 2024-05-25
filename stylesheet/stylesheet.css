@@ -1,0 +1,62 @@
+:root {
+  --azul: #0072c6;
+  --laranja: #f7931e;
+  --azul-claro: #cfe2f3;
+  --laranja-claro: #fde7d9;
+  --cinza-escuro: #3f3f3f;
+}
+
+/* Estilo do carrossel tamanho dos itens */
+.carousel-item {
+  height: 500px;
+}
+
+/* Cor de fundo da página */
+body {
+  background-color: var(--cinza-escuro) !important;
+}
+
+/* Estilo dos cards */
+.card {
+  border-color: var(--azul);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: var(--azul-claro);
+}
+
+.card-title {
+  color: var(--cinza-escuro);
+}
+
+/* Estilo dos botões */
+.btn-primary {
+  background-color: var(--laranja);
+  border-color: var(--laranja);
+}
+
+.btn-primary:hover {
+  background-color: var(--laranja-claro);
+  border-color: var(--laranja-claro);
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: var(--cinza-escuro);
+}
+
+footer p {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px; /*opcional para adicionar espaço entre os ícones*/
+}
