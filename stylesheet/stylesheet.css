@@ -18,6 +18,9 @@ body {
 
 /* Estilo dos cards */
 .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border-color: var(--azul);
 }
 
@@ -28,11 +31,14 @@ body {
 
 .card-body {
   background-color: var(--azul-claro);
+  flex: 1;
 }
 
 .card-title {
   color: var(--cinza-escuro);
 }
+
+
 
 /* Estilo dos botões */
 .btn-primary {
